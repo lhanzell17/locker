@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+*{
+    margin: 0;
+}
+body{
+    height: 60%;
+    background-image: url("image/bg.jpg");
+    background-size: cover;
+    margin: 0px 0px;
+}
+.container{
+    height: 80%;
+    margin: 0 0;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+.invent::-webkit-scrollbar {
+    display: none;
+}
+.invent{
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(75, 0, 146, 0.658);
+    width: 50%;
+    height: 500px   ;
+    margin: 0px 50px;
+    border-radius: 3px;
+    align-content: flex-start;
+   
+    
+}
+.invetory-wrap{
+    box-sizing: border-box;
+    width: 19.1%;
+    display: flex;
+    flex-direction: column;
+    margin: 3px 3px;
+    padding: 5px 5px;
+    background-color: rgba(255, 255, 255, 0.13);
+    height: 25%;
+    border-radius: 3px;
+    
+}
+.invetory-wrap img{
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.invetory-wrap .name{
+    color: rgb(206, 206, 206);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7px;
+}
+.quantity{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: rgb(206, 206, 206);
+    font-size: 14px;
+    
+}
+.invetory-wrap:hover{
+    
+    background-color: rgba(255, 255, 255, 0.24);
+   
+}
